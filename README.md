@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# American Dream: Interactive Sales Deck
 
-## Getting Started
+A highly impactful, video-first, responsive sales presentation designed for the "American Dream" mega-mall. Engineered with Next.js, Tailwind CSS, and Framer Motion, this application is optimized for performance, luxury aesthetics, and dynamic scrollytelling.
 
-First, run the development server:
+## 🚀 Features
+- **Video-First Cinematic Hero**: A fully muted, autoplaying background video masked by CSS film grain and dark-mode blending for immediate impact.
+- **True Horizontal Scrollytelling**: Apple-style horizontal pinning using Framer Motion's `useScroll` to present luxury retail brands elegantly.
+- **Animated Data Counters**: Custom intersection-observer-driven metrics that count up aggressively as they enter the viewport.
+- **Dynamic Theming**: An overarching dark and light mode variable system tailored to high-end contrasts.
+- **Responsive & Performant**: Optimized for 90+ Lighthouse styling; highly fluid across desktop and tablet formats.
+
+## 🛠 Tech Stack
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS v4, Custom CSS Variables
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Language**: TypeScript
+
+## 📦 Local Setup
 
 ```bash
+# Clone the repository
+git clone <your-repo-link>
+
+# Navigate into the project
+cd sales-deck
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open [http://localhost:3000](http://localhost:3000) to view the presentation in your browser.
