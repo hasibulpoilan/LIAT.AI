@@ -467,9 +467,9 @@ export default function SalesDeck() {
       <AnimatePresence>
         {isSidebarOpen && (
           <motion.nav 
-            initial={{ w: 0, opacity: 0 }}
+            initial={{ width: 0, opacity: 0 }}
             animate={{ width: 280, opacity: 1 }}
-            exit={{ w: 0, opacity: 0 }}
+            exit={{ width: 0, opacity: 0 }}
             className="hidden md:flex w-[280px] bg-card-bg border-r border-card-border flex-col justify-between shrink-0 h-full z-50 relative"
           >
             <div className="p-8">
